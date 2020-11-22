@@ -1,0 +1,166 @@
+@import "custom/variables";
+
+@media only screen and (min-width: 600px) {
+  .top-page {
+    height: 227px;
+    background-image: url("/assets/images/header.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:#595959;
+    margin-right:-15px;
+    margin-left: -15px;
+  }
+
+}
+
+.content-area {
+  background-color:#fff;
+}
+
+.navbar-default {
+  @extend .navbar-default;
+  height: 120px;
+  background-color: $base-color !important;
+}
+
+.panel {
+  color: white;
+}
+
+.sidebar-panel {
+  @extend .panel;
+  margin-top: 15px;
+  background-color: $base-color-light !important;
+  padding: 15px;
+}
+
+.admonitionblock {
+  margin: 20px 0px 10px 0px;
+}
+
+.admonitionblock > > .title {
+  margin-right: 15px;
+}
+
+footer {
+  background-color: $base-color;
+  color: $default-font-color;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+
+
+.blog-main {
+  //padding: 25px;
+}
+
+.highlighted {
+  color: $secondary-color !important;
+  text-align: center;
+  padding: 5px;
+}
+
+.colored {
+  @extend .highlighted;
+}
+
+h1, h2, h3 {
+  color: $secondary-color !important;
+  @extend .highlighted
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+h4, h5 {
+  font-size: 1.1rem;
+  color: $secondary-color
+}
+
+strong {
+  @extend .highlighted
+}
+
+.padded {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+blockquote {
+  @extend .blockquote;
+  color: gray;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  padding-right:15%;
+  padding-left:15%;
+  color:$secondary-color;
+}
+
+table {
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid $secondary-color;
+  tr {
+    &:nth-child(even) {
+      background-color: lighten($secondary-color, 6%);
+    }
+  }
+  th, td {
+    padding: 15px;
+  }
+  th {
+    background-color: lighten($secondary-color, 3%);
+    border: 1px solid darken($secondary-color, 4%);
+    border-bottom-color: darken($secondary-color, 12%);
+  }
+  td {
+    border: 1px solid $secondary-color;
+  }
+}
+
+
+img + em {
+  border-top: 1px solid #989898;
+  color: #828282;
+  text-align: center;
+}
+
+.blockquote{
+  border-top: 1px solid #4e555b;
+  border-bottom: 1px solid #4e555b;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.header {
+  margin-top: 20px
+}
+
+.highlighter-rouge {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background: $secondary-color;
+  color:$default-font-color;
+  width: 100%;
+}
+
+.section-nav {
+  background-color:#eee;
+  margin: 5px 0;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+.section-nav ul {
+  list-style: none;
+}
+.section-nav li {
+  list-style: none;
+}

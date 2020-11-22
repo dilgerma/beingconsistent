@@ -1,0 +1,72 @@
+<!doctype html>
+<!--[if IE 9]>
+<html class="lt-ie10" lang="en"> <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+    {% include header.html %}
+</head>
+<body>
+
+
+<!-- Nav Bar -->
+<div class="container content-area">
+
+    {% include navbar.html %}
+
+    <!-- End Nav -->
+
+
+    <!-- Main Page Content and Sidebar -->
+
+    <div class="row">
+
+        <!-- Main Blog Content -->
+        <div class="col-sm-12" role="content">
+            <div class="blog-main">
+                {{ content}}
+            </div>
+            <div>
+                {% include disqus.html %}
+            </div>
+        </div>
+
+        <!-- End Main Content -->
+
+        <!-- Sidebar -->
+
+       <!--  <aside class="col-sm-3 col-sm-offset-1 blog-sidebar">
+
+            <div><a href="/feed.xml">RSS</a></div>
+
+
+            <h4>Kategorien</h4>
+            {% for category in site.categories %}
+            <a href="/kategorien/{{ category[0] }}" style="text-decoration: none;">
+                {{ category[0] | capitalize }}
+            </a><br/>
+            {% endfor %}
+
+
+            <div class="sidebar-panel">
+                {% include sidebar.html %}
+            </div>
+
+        </aside>
+ -->
+        <!-- End Sidebar -->
+    </div>
+    <!-- End Main Content and Sidebar -->
+
+    <div>
+        {% include disclaimer.html %}
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="row">
+        {% include footer.html %}
+    </footer>
+
+</div>
+</body>
+</html>

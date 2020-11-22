@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "W-8BEN"
+date:   2018-10-03 07:36:18 +0200
+categories: Steuern
+summary: Das W-8BEN Formular wird benötigt, um die Quellenesteuer für Dividenden aus den USA auf 15% zu reduzieren. Dieser Artikel erläutert die Hintergründe.
+permalink: /:categories/:year/:month/:day/:title:output_ext
+comments: true
+---
+
+### Hintergrund
+
+Ich spiele mit dem Gedanken, einen Teil meines verfügbaren Vermögens in Hochdividendenwerte zu investieren. Hier verweise ich auf den fantastischen [Blog](https://nurbaresistwahres.de/geldanlage-wie-starte-ich-mit-hochdividendenwerten) von Luis Pazos.
+    Damit ich die Quellensteuer auf 15% reduzieren kann und somit nicht _draufzahle_ (von den 30% regulär zu zahlender Quellensteuer sind dank Doppelbesteuerungsabkommen nur 15% mit der Kapitalertragssteuer direkt verechenbar, der Rest nur mit erheblichem Mehraufwand und Bürokratie)
+
+Die Investition in Hochdividendenwerte ist Teil meiner Rentenstrategie, die ich in einer späteren Artikelreihe vorstellen werde.
+
+Nach jetzigem Wissensstand gibt es Banken, die die Reduzierung auf 15 statt 30% Quellensteuer automatisch vornehmen können. Hierfür muss die Bank als sogenannter ["qualified intermediary"](https://en.wikipedia.org/wiki/Qualified_intermediary) deklariert sein.
+
+### Das W-8BEN-Formular
+
+Das Formular selber ist erschreckend kompliziert.
+
+### Juristischer Hintergrund
+
+Die Grundlage für die Pflicht, das W-8BEN-E-Formular ausfüllen zu müssen ist der Foreign Account Tax Compliance Act aus dem Jahr 2010.
+Das Gesetz versucht, Steuerhinterziehung zu mindern, indem juristische oder natürliche Personen gezwungen werden, ihre bestehenden Konten
+im Ausland offenzulegen.
+
+> Mit FATCA soll verhindert werden, dass US-steuerpflichtige Personen insbesondere mittels im Ausland befindlicher Finanzinstitutionen bzw. anderer Nicht-US-Rechtsgebilde ihre Steuern verkürzen.
+> Quelle: Wikipedia, https://de.wikipedia.org/wiki/FATCA
+
+Facta bedeutet aber nicht nur die Meldepflicht in die USA sondern eben auch die Verpflichtung der Finanzinstitute, folgende Informationen regelmäßig zu übermitteln (für Deutschland gelten ggf. abweichende Sonderregelungen)
+
+- Einlagenkonten
+- nicht börsliche Beteiligungen
+- Einnahmen
+- Gutschriften, Belastungen und Kontohöchststände
+
+Für Investoren, die das W-8BEN nicht übermittelt haben erheben die US-Behörden pauschal 30% Quellensteuer auf jegliche Einnahmen aus US-Quellen. Quellensteuer ist diejenige Steuer, die _an der Quelle_ erhoben wird, in dem Land also in dem beispielsweise Investitionen getätigt werden. Nach Abgabe des W-8BEN reduziert sich die Quellensteuer auf 15%, die gemäß Doppelbesteuerungsabkommen direkt mit der Kapitelertragssteuer verrechnet werden kann.
+
+## Links
+[Foreign Account Tax Compliance Act](https://de.wikipedia.org/wiki/FATCA)
+
+[IHK Beschreibung](https://www.frankfurt-main.ihk.de/international/auslandsmaerkte/laenderkontakte/s-z/usa/quellensteuer/)
+
+[Formular IRS (Internal Revenue Services)](https://www.irs.gov/pub/irs-pdf/fw8bene.pdf)
+
+[Ausfüllanleitung]( https://www.irs.gov/pub/irs-pdf/iw8bene.pdf)
